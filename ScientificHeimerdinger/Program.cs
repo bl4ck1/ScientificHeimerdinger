@@ -132,7 +132,7 @@ namespace HeimerdingerARK
             //Idk what this is called but it's something <3
             Interrupter.OnPossibleToInterrupt += Interrupter_OnPossibleToInterrupt;
             AntiGapcloser.OnEnemyGapcloser += AntiGapCloser_OnEnemyGapcloser;
-            Game.OnGameUpdate += Game_OnGameUpdate;
+            Game.OnUpdate += Game_OnGameUpdate;
             Drawing.OnDraw += OnDraw;
             Drawing.OnEndScene += OnEndScene;
 
